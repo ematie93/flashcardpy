@@ -1,0 +1,1536 @@
+---
+- Question:
+    ID: 1
+    Type: Single
+    QuestionText: An administrator has been asked to add 200 virtual machines to their existing Nutanix cluster. Which Nutanix product will help them plan for this addition capacity?
+    Options:
+        - Beam
+        - Prism Pro
+        - Era
+        - Calm
+    Correct: 
+        - Prism Pro
+    
+- Question:
+    ID: 2
+    Type: Single
+    QuestionText: |
+        An administrator is managing two AHV and vSphere-based clusters. The administrator is able to install a Windows Guest OS from an ISO Image to VMware VMs, but is unable to do the same activity with AHV VMs.
+        What should the administrator do to successfully perform this action with AHV VMs?
+    Options:
+        - Verify cluster iSCSI Data Services IP
+        - Provide virtIO drivers
+        - Manage Nutanix Guest Tools
+        - Change VM settings from BIOS to UEFi
+    Correct: 
+        - Provide virtIO drivers
+    
+- Question:
+    ID: 3
+    Type: Single
+    QuestionText: |
+        An administrator recently installed Prism Central to use Categories. After having created Categories and Values, the administrator needs to apply these Categories to multiple workloads.
+        How can the administrator easily perform this task?
+    Options:
+        - Create a Playbook to automate the process
+        - Choose multiple VMs and select Manage Categories
+        - Go to Categories and select the VMs to be added
+        - Manage the VMs ownership
+    Correct:  
+        - Choose multiple VMs and select Manage Categories
+    
+- Question:
+    ID: 4
+    Type: Multiple
+    QuestionText: |
+        Protection Domains enable administrators to replicate which two items for Disaster Recovery? (Choose two)
+    Options:
+        - Volume Groups
+        - Virtual Machines
+        - File Shares
+        - Disk Images
+    Correct:
+        - Volume Groups
+        - Virtual Machines
+
+- Question:
+    ID: 5
+    Type: Single
+    QuestionText: |
+        An administrator needs to upgrade AOS for a dark site cluster by using Prism. What step needs to be completed prior to performing the upgrade?
+    Options:
+        - Extract the AOS binaries to the CVM
+        - Manually upload binaries 10 a local http server.
+        - Manually upload AOS binaries and metadata
+        - Use The LCM dark site option providing AOS binaries
+    Correct:
+        - Manually upload AOS binaries and metadata
+
+- Question:
+    ID: 6
+    Type: Multiple
+    QuestionText: |
+        What are two types of Protection Domains that Nutanix offers for Data Protection? (Choose two.)
+    Options:
+        - Metro Availability
+        - Snapshots
+        - Async DR
+        - Consistency Group
+    Correct:
+        - Metro Availability
+        - Async DR
+
+- Question:
+    ID: 7
+    Type: Single
+    QuestionText: |
+        Which Nutanix component can be placed into a third site, in order to assist the primary and secondary sites during a failure event?
+    Options:
+        - Backup Server
+        - Witness VM
+        - Prism Central
+        - Controller VM
+    Correct:
+        - Witness VM
+
+- Question:
+    ID: 8
+    Type: Single
+    QuestionText: |
+        An administrator has been asked to investigate performance issues for a business critical application. The application runs on a single VM. What is easiest way for the administrator to begin troubleshooting this issue?
+    Options:
+        - On the Analysis page, create an entity chart with all metrics included
+        - On the Health page, look for Critical or Warning alerts for the VM.
+        - Review the metrics charts on the Prism Element Home page
+        - Review the VM Performance tab for the VM in Prism Element
+    Correct:
+        - On the Analysis page, create an entity chart with all metrics included
+
+- Question:
+    ID: 9
+    Type: Single
+    QuestionText: |
+        Which Deduplication technique could be used to increase the effective storage capacity of a cluster?
+    Options:
+        - Thin deduplication
+        - Inline deduplication
+        - Near-line deduplication
+        - Post-process deduplication
+    Correct:
+        - Post-process deduplication
+
+- Question:
+    ID: 10
+    Type: Single
+    QuestionText: |
+        An administrator wants to deploy a virtual desktop solution on a Nutanix cluster and wants to use the existing production network segment. Due to security concerns, DHCP traffic is blocked on the upstream network switch.
+        How should the administrator proceed?
+    Options:
+        - Enable IPAM and configure an IP Address Pool
+        - Enable Nutanix Flow
+        - Enable DHCP on the TOR Switches
+        - Install and configure third-party DHCP Software
+    Correct:
+        - Enable IPAM and configure an IP Address Pool
+
+- Question:
+    ID: 11
+    Type: Single
+    QuestionText: |
+        Prism Central is managing two clusters, one AHV-based and one vSphere-based vSphere cluster using a stored Prism image, without success.
+        Why is the administrator experiencing this issue?
+    Options:
+        - The Image Service applies only to AHV clusters.
+        - The Virtual Hardware in the image does not match the vSphere version.
+        - The template image needs to be converted to a VM.
+        - The template image has not been uploaded to the vSphere cluster.
+    Correct:
+        - The Virtual Hardware in the image does not match the vSphere version.
+
+- Question:
+    ID: 12
+    Type: Single
+    QuestionText: |
+        An administrator has recently added two nodes to an existing three-node vSphere-based Nutanix cluster. 
+        After adding the nodes to the cluster, the administrator tries to migrate a few VMs to the new nodes, but found that no datastore exist on these new nodes yet
+        What action should the administrator take to resolve this issue?
+    Options:
+        - Click Mount on all ESXi hosts on containers
+        - Configure iSCSl Software Adapter on hosts
+        - Configure the firewall to allow NFS datastore access
+        - Add the host IP addresses to cluster whitelists
+    Correct:
+        - Click Mount on all ESXi hosts on containers
+
+- Question:
+    ID: 13
+    Type: Single
+    QuestionText: |
+        An administrator is concerned that a VM on a hybrid cluster with 8GB RAM and 4 vCPUs is performing poorly. An analysis of the VM indicates that CPU utilization is at 50%. Memory utilization is at 30%. and disk latency is at 18ms.
+        What can the administrator do to improve performance?
+    Options:
+        - Add2xvCPU
+        - Add 4GB RAM
+        - Increase vDisksize
+        - Enable Flash Mode/ Enable Flash tier
+    Correct:
+        - Enable Flash Mode/ Enable Flash tier
+
+- Question:
+    ID: 14
+    Type: Single
+    QuestionText: |
+        What Nutanix product provides multi-cloud cost and security governance?
+    Options:
+        - Era
+        - Leap
+        - Beam
+        - Flow
+    Correct:
+        - Beam
+
+- Question:
+    ID: 15
+    Type: Single
+    QuestionText: |
+        An administrator completed a successful AOS upgrade, but saw the following alert the following day:
+        Detected incompatible AHV version. 
+        What is most likely causing this alert?
+    Options:
+        - The upgraded AOS version is incompatible with AHV.
+        - AHV was upgraded manually prior to AOS upgrade.
+        - AHV is not at the version that carte with the upgraded AOS.
+        - NCC version is not compatible with the current AHV version.
+    Correct:
+        - AHV is not at the version that carte with the upgraded AOS.
+
+- Question:
+    ID: 16
+    Type: Multiple
+    QuestionText: |
+        Which two Nutanix features offer the ability to restore a VM? (Choose two.)
+    Options:
+        - Data Protection
+        - Nutanix Leap
+        - Nutanix Flow
+        - Site Recovery Manager
+    Correct:
+        - Data Protection
+        - Nutanix Leap
+
+- Question:
+    ID: 17
+    Type: Single
+    QuestionText: |
+        A developer requests that a VM connects to a block device from an older ISCSI disk array, in order to support an application being transitioned to Nutanix.
+        What should the Nutanix administrator do to complete this task?
+    Options:
+        - Use Flits to map a network drive letter.
+        - Add the VM to the whitelist to allow it to access the block device.
+        - Use Volumes to add the device as a drive letter
+        - Add the array to the whitelist to access the storage container directly
+    Correct:
+        - Use Volumes to add the device as a drive letter
+
+- Question:
+    ID: 19
+    Type: Single
+    QuestionText: |
+        An administrator has a physical server that provides Active Directory service. IT has been hesitant to virtualize it due to its mission critical nature.
+        What can the administrator do to ensure that Active Directory experiences the least downtime when hosted on Nutanix?
+    Options:
+        - Mark the VM as an Agent VM.
+        - Configure Runbook to power on the VM first.
+        - Turn off IPAM for the VM's VLAN.
+        - Turn off Live Migration for the VM.
+    Correct:
+        - Mark the VM as an Agent VM.
+
+- Question:
+    ID: 22
+    Type: Single
+    QuestionText: |
+        An administrator has moved several workloads from a legacy vSphere virtual infrastructure to a modern Nutanix AHV cluster. After performing this action the administrator realizes they are missing vCenter inventories that would be used to classify the VMs by specific prefixes.
+        What is the fastest way in Prism Central to group VMs with the specified criteria?
+    Options:
+        - Fitters
+        - Categories
+        - Projects
+        - Analysis
+    Correct:
+        - Categories
+
+- Question:
+    ID: 23
+    Type: Multiple
+    QuestionText: |
+        Which two Protection Domain features require a configured schedule of less than 15 minutes? (Choose two.)
+    Options:
+        - Metro Availability DR
+        - Synchronous DR
+        - Asynchronous DR
+        - NearSyncRD
+    Correct:
+        - Metro Availability DR
+        - NearSyncRD
+
+- Question:
+    ID: 24
+    Type: Multiple
+    QuestionText: |
+        Which component allows you to pair sites for Disaster Recovery Policy Creation using Nutanix Leap?
+    Options:
+        - Protection Policies
+        - Protection Domains
+        - Recovery Plan
+        - Availability Zones
+    Correct:
+        - Availability Zones
+
+- Question:
+    ID: 25
+    Type: Single
+    QuestionText: |
+        A mission critical application with four VMs have been deployed inside of a six-node Nutanix cluster. An alert is generated that a node in the cluster has failed and is no longer online. After the alert, two of the VMs reboot and come back online on another node.
+        Which feature, when configured, would have prevented the two VMs from rebooting?
+    Options:
+        - Host Anti-Affinity
+        - VM High Availability
+        - Host Affinity
+        - Protection Domain
+    Correct:
+        - Host Affinity
+
+- Question:
+    ID: 26
+    Type: Single
+    QuestionText: |
+        What is required to schedule VM snapshots?
+    Options:
+        - Categories
+        - Consistency Group
+        - Volume Group
+        - Protection Domain
+    Correct:
+        - Protection Domain
+
+- Question:
+    ID: 30
+    Type: Single
+    QuestionText: |
+        An administrator is looking to store a large amount of unstructured data with capabilities to set up a retention policy. Which Nutanix product meets this requirement?
+    Options:
+        - Mint
+        - Piles
+        - Storage Container
+        - Objects
+    Correct:
+        - Objects
+
+- Question:
+    ID: 33
+    Type: Single
+    QuestionText: |
+        A new Project is being rolled out to an AHV cluster being monitored by Prism Central. The applications team indicates that the application managed by the project is very memory intensive. The administrator wants to be notified about any memory constraints, should they occur.
+        How would an administrator most effectively achieve this task?
+    Options:
+        - Search for the VM, then in the Details page go to metrics and select CPU Usage.
+        - Create a new Metric chart for the cluster, and analyze Hypervisor Memory Usage.
+        - Create a Report to tracking the Memory Usage
+        - Create a new Alert Policy for Memory Usage and set to Critical after 80%
+    Correct:
+        - Create a new Alert Policy for Memory Usage and set to Critical after 80%
+
+- Question:
+    ID: 34
+    Type: Multiple
+    QuestionText: |
+        An administrator with an AHV cluster notices that time/date stamps in logs for some VMs are not correct. After investigating, the administrator finds that many of their user VMs are set to UTC What two methods can be used to resolve the issue? (Choose two.)
+    Options:
+        - Configure NTP within Prism
+        - Configure the VMs time zone inside each guest VM
+        - Configure the time zone for each VM using Prism.
+        - Configure NTP inside each guest VM.
+    Correct:
+        - Configure NTP within Prism
+        - Configure the time zone for each VM using Prism.
+
+- Question:
+    ID: 35
+    Type: Single
+    QuestionText: |
+        An administrator needs to have a view of current workloads sorted by vCPU count.
+        What should the administrator do to achieve this task?
+    Options:
+        - Create a New Dashboard adding the VMs widget
+        - Use the Group function in prism Central
+        - Create a new Analysis in Prism Element
+        - Export the VM list in CSV and use an external tool
+    Correct:
+        - Create a New Dashboard adding the VMs widget
+
+- Question:
+    ID: 37
+    Type: Multiple
+    QuestionText: |
+        An administrator wants to copy some virtual machine disk files to ADSF from an external VMware ESXi host.
+        Which two actions should the administrator take to complete this task? (Choose two.)
+    Options:
+        - Mount container as NFS on external host
+        - Configure Volume Group
+        - Enable CHAP on Volume Group
+        - Configure whitelist on container
+    Correct:
+        - Mount container as NFS on external host
+        - Configure whitelist on container
+
+- Question:
+    ID: 38
+    Type: Multiple
+    QuestionText: |
+        An application vendor had provided a VHD disk for their pre-configured virtual machine.
+        A Nutanix cluster administrator imported that VHD disk into Image Configuration, but the disk does not list while using Clone from Image Service.
+        Before uploading the vDisk again, which two actions should the administrator perform? (Choose two.)
+    Options:
+        - Convert VHD to QCOW before uploading
+        - Verify correct container is selected
+        - Verify the Image is as type Disk
+        - Verify the Image is Active
+    Correct:
+        - Convert VHD to QCOW before uploading
+        - Verify the Image is as type Disk
+
+- Question:
+    ID: 40
+    Type: Multiple
+    QuestionText: |
+        After adding a remote site cluster, an administrator must map which two entities? (Choose two).
+    Options:
+        - Networks
+        - Virtual Machines
+        - Consistency Groups
+        - VStores
+    Correct:
+        - Virtual Machines
+        - Consistency Groups
+
+- Question:
+    ID: 41
+    Type: Single
+    QuestionText: |
+        What is the minimum RPO supported for a single-node or two-node cluster?
+    Options:
+        - 15 minutes
+        - 6 hours
+        - 5 hours
+        - 1 hour
+    Correct:
+        - 6 hours
+
+- Question:
+    ID: 42
+    Type: Single
+    QuestionText: |
+        How can an administrator access a Windows VM running on a Nutanix cluster if it is unreachable via ping?
+    Options:
+        - Connect using Xi Frame
+        - Open a Virtual Console through Prism Centra
+        - Connect using RDP
+        - Open a Virtual Console through Prism Element
+    Correct:
+        - Open a Virtual Console through Prism Element
+
+- Question:
+    ID: 43
+    Type: Multiple
+    QuestionText: |
+        An administrator wants to ensure that a particular VM starts before any other VM in the environment after performing maintenance. How can the administrator achieve this? (Choose two)
+    Options:
+        - Mark the VM as a High Priority VM in Prism Central
+        - Mark the VM for Host Affinity in Prism Element
+        - Mark the VM as an Agent VM in Prism Element
+        - Mark the VM as a High Priority VM in Prism Element
+    Correct:
+        - Mark the VM as a High Priority VM in Prism Central
+        - Mark the VM as a High Priority VM in Prism Element
+
+- Question:
+    ID: 44
+    Type: Multiple
+    QuestionText: |
+        An administrator has recently added two additional nodes to an existing three-node Nutanix cluster, which hosts critical business application VMs. The administrator will tolerate losing up to two nodes simultaneously within the cluster.
+        Which two actions are required to achieve this with minimum effort? (Choose two.)
+    Options:
+        - Modify cluster to RF3
+        - Migrate VMs to new RF3 container
+        - Convert container to RF3
+        - Create a new RF3 container
+    Correct:
+        - Modify cluster to RF3
+        - Convert container to RF3
+
+- Question:
+    ID: 46
+    Type: Single
+    QuestionText: |
+        Which Nutanix solution would provide an organization with a Cloud DR capability for their Nutanix cluster?
+    Options:
+        - Xi Frame
+        - Xi. Lap
+        - Beam
+        - Move
+    Correct:
+        - Xi. Lap
+
+- Question:
+    ID: 48
+    Type: Single
+    QuestionText: |
+        An administrator needs to group VMs by using a custom attribute. At the same time, this tag must not be used to configure other Nutanix services, such as Data Protection.
+        Which action in Prism Central should the administrator take?
+    Options:
+        - Create a user defined category
+        - Select VMs and create a new Label
+        - Create a new Playbook
+        - Create a new Catalog Item
+    Correct:
+        - Create a user defined category
+
+- Question:
+    ID: 49
+    Type: Single
+    QuestionText: |
+        An administrator needs to replace a node in a three-node cluster. The health status for the environment is good and the cluster is able to support a single node failure.
+        Which step must be performed first?
+    Options:
+        - Remove the failed node from the cluster
+        - Verify hypervisor versions
+        - Plug in all network cables
+        - Expand the cluster with the new node
+    Correct:
+        - Expand the cluster with the new node
+
+- Question:
+    ID: 51
+    Type: Single
+    QuestionText: |
+        An administrator needs to provide users access to Prism Central Projects Which source of user accounts must the administrator use?
+    Options:
+        - Open LDAP
+        - Active Directory
+        - Local users
+        - SAML2 Provider
+    Correct:
+        - Active Directory
+
+- Question:
+    ID: 52
+    Type: Single
+    QuestionText: |
+        An administrator attempts to reinstall a VM's GuestOS, but unable to change the legacy BIOS boot priority. Based on the exhibit, what is causing this issue?
+    Options:
+        - GuestOS reinstall is not possible for a VM
+        - The CD-ROM is empty
+        - The VM is currently on
+        - The VM is undergoing a snapshot
+    Correct:
+        - The VM is currently on
+
+- Question:
+    ID: 53
+    Type: Multiple
+    QuestionText: |
+        Which two entity types can be exported by an administrator who only has access to Prism Element?
+        (Choose two.)
+    Options:
+        - VM
+        - Storage
+        - Health
+        - Network
+    Correct:
+        - VM
+        - Storage
+
+- Question:
+    ID: 54
+    Type: Sinlge
+    QuestionText: |
+        An administrator has a SQL VM running, which is experiencing high disk latency.
+        What could the administrator do to alleviate this?
+    Options:
+        - Increase CPU and Memory on the CVM
+        - Attach additional Volume Groups to the VM
+        - Add more CPU and Memory to the VM
+        - Create another Storage Container
+    Correct:
+        - Create another Storage Container
+
+- Question:
+    ID: 55
+    Type: Sinlge
+    QuestionText: |
+        An administrator is experiencing an issue and needs to enable access for Nutanix support to login.
+        What should the administrator do to meet this requirement?
+    Options:
+        - Enable Remote Support from Prism Element
+        - Enable SSH
+        - Enable Pulse
+        - Enable Remote Support from Prism Central
+    Correct:
+        - Enable Remote Support from Prism Element
+
+- Question:
+    ID: 56
+    Type: Sinlge
+    QuestionText: |
+        Which Distributed Storage Fabric (DSF) component is responsible for staging the area to handle bursts of random writes, coalescing them, and then sequentially draining the data to the persistent storage?
+    Options:
+        - Oplog
+        - Extend Store
+        - vBlock
+        - Unified cach
+    Correct:
+        - Oplog
+
+- Question:
+    ID: 57
+    Type: Sinlge
+    QuestionText: |
+        Which Nutanix cluster component is responsible for the cluster configuration?
+    Options:
+        - Cassandra
+        - Stargate
+        - Zookeeper
+        - Zeus
+    Correct:
+        - Zookeeper
+
+- Question:
+    ID: 58
+    Type: Multiple
+    QuestionText: |
+        Which two CVM components are used to provide data locality? (Choose two.)
+    Options:
+        - Logical Unit
+        - Unified Cache
+        - Extent Store
+        - Volume Group
+    Correct:
+        - Unified Cache
+        - Extent Store
+
+- Question:
+    ID: 59
+    Type: Single
+    QuestionText: |
+        An administrator wants a VM to communicate with two separate VLANs. What steps should the administrator complete?
+    Options:
+        - Add two NICs to the VM and configure one for each VLAN
+        - Add a single NIC to the VM and configure it for both VLANs
+        - Turn on IPAM for autoconfiguration of VLANs
+        - Configure a Security Policy to assign VLANs to the VM
+    Correct:
+        - Add two NICs to the VM and configure one for each VLAN
+
+- Question:
+    ID: 60
+    Type: Single
+    QuestionText: |
+        Which Nutanix cluster component is responsible for triggering data movement events between SSD and HDD tiers?
+    Options:
+        - Genesis
+        - ILM (Information Life-cycle Management)
+        - Cassandra
+        - OpLog
+    Correct:
+        - ILM (Information Life-cycle Management)
+
+- Question:
+    ID: 61
+    Type: Single
+    QuestionText: |
+        Which statement best defines Replication Factor 2 (RF2)?
+    Options:
+        - Data will be written locally, and a second copy then will be replicated to another cluster
+        - Data will be written locally, and a second copy to another disk group
+        - Data will be written locally, and a second copy goes to a remote site
+        - Data will be written locally, and a second copy goes to another node in the same cluster
+    Correct:
+        - Data will be written locally, and a second copy goes to another node in the same cluster
+
+- Question:
+    ID: 62
+    Type: Single
+    QuestionText: |
+        An administrator has planned a RAM upgrade on a 3-node Nutanix cluster. Which step should be performed first for a non-disruptive memory upgrade?
+    Options:
+        - Stop one CVM at time
+        - RunNCC
+        - Power off one host at time
+        - Live Migrate VMs
+    Correct:
+        - RunNCC
+
+- Question:
+    ID: 63
+    Type: Single
+    QuestionText: |
+        An administrator expanded the disk capacity on a Windows VM, but the VM operator saw no difference in free space. Which additional step must the administrator take?
+    Options:
+        - Reboot the Virtual Machine
+        - Convert to a dynamic disk
+        - Expand the current partition
+        - Reconnects to iSCSi target
+    Correct:
+        - Expand the current partition
+
+- Question:
+    ID: 64
+    Type: Single
+    QuestionText: |
+        What should an administrator do after a Protection Domain is migrated?
+    Options:
+        - Register Virtual Machines
+        - Restore Virtual Machines
+        - Mount datastores on Hosts
+        - Power on Virtual Machines
+    Correct:
+        - Power on Virtual Machines
+
+- Question:
+    ID: 66
+    Type: Single
+    QuestionText: |
+        Which option allows administrators to specify groups of VMs and assign them to a destination for Disaster Recovery using Leap?
+    Options:
+        - Security Policies
+        - Protection Policies
+        - Recovery Plans
+        - Availability Zones
+    Correct:
+        - Availability Zones
+
+- Question:
+    ID: 67
+    Type: Single
+    QuestionText: |
+        An organization runs several core business applications on a Nutanix cluster. System stability and support are critical for these applications, which has an annual maintenance window.
+        How can the administrator assure that these requirements are met?
+    Options:
+        - Purchase Mission Critical support.
+        - Purchase Ultimate licensing
+        - Adhere to the STS release cycle.
+        - Adhere to the LTS release cycle.
+    Correct:
+        - Purchase Ultimate licensing
+
+- Question:
+    ID: 68
+    Type: Single
+    QuestionText: |
+        An administrator notices that a VM is slow and unresponsive. The administrator wants to compare performance to other VMs on cluster.
+        hich chart type is best suited to display multiple VM performance metrics for diagnosis?
+    Options:
+        - Dashboard Chart
+        - Entity Chart
+        - Analysis Chart
+        - Metric Chart
+    Correct:
+        - Metric Chart
+
+- Question:
+    ID: 69
+    Type: Single
+    QuestionText: |
+        An administrator needs to expand a Nutanix cluster that is tagging the network traffic at the CVM and AHV level. However, the administrator doesn't remember the configured VLAN ID.
+        Which command can the administrator run to find the correct VLAN ID from the CVM?
+    Options:
+        - ifconfig
+        - manage-ovs
+        - acli
+        -  ovs-vsctl
+    Correct:
+        - ovs-vsctl
+
+- Question:
+    ID: 70
+    Type: Single
+    QuestionText: |
+        A customer is running a three-node Nutanix cluster.
+        Which data optimization feature cannot be enabled in this scenario?
+    Options:
+        - Post Compression
+        - Map-reduce dedup
+        - Erasure Coding
+        - Inline Compression
+    Correct:
+        - Inline Compression
+
+- Question:
+    ID: 71
+    Type: Single
+    QuestionText: |
+        An administrator receives several alerts indicating a Nutanix cluster is running out of memory. As a preemptive measure, the administrator wishes to try to reduce the consumed resources, if possible.
+        Which two predefined views for Reporting best display potentially reclaimable resources? (Choose two.)
+    Options:
+        - List of Inactive VMs
+        - list of Bully VMs
+        - Memory Runway
+        - List of Overprovisioned VMs
+    Correct:
+        - list of Bully VMs
+        - List of Overprovisioned VMs 
+
+- Question:
+    ID: 72
+    Type: Single
+    QuestionText: |
+        A company's security team has requested that all IT resources be hardened.
+        What should an administrator do to increase the security of the Nutanix environment?
+    Options:
+        - Enable Cluster Lockdown
+        - Enable Prism Central KMS
+        - Enable Flow
+        - Enable STIG
+    Correct:
+        - Enable Cluster Lockdown
+
+- Question:
+    ID: 73
+    Type: Single
+    QuestionText: |
+        An administrator should use which Nutanix component to to create in-guest clustering?
+    Options:
+        - Storage Pools
+        - Volumes
+        - Blocks
+        - Containers
+    Correct:
+        - Volumes
+
+- Question:
+    ID: 75
+    Type: Single
+    QuestionText: |
+        An administrator wants to evaluate the overall health of the Nutanix cluster. What should be the first
+    Options:
+        - Run NCC
+        - Run Log Collector
+        - Run Xi Beam
+        - Run LCM
+    Correct:
+        - Run NCC
+
+- Question:
+    ID: 76
+    Type: Multiple
+    QuestionText: |
+        Which two advanced features requires you to install Nutanix Guest Tools (NGT)? (Choose two.)
+    Options:
+        - Disaster Recovery of a VM between AHV and ESXi Hypervisors
+        - Live Migration of a VM between AHV & other Hypervisors
+        - File recovery from a third-party backup
+        - Self-service file-level recovery from VM snapshots
+    Correct:
+        - Disaster Recovery of a VM between AHV and ESXi Hypervisors
+        - Self-service file-level recovery from VM snapshots
+
+- Question:
+    ID: 77
+    Type: Single
+    QuestionText: |
+        An administrator is unable to discover a Nutanix-hosted iSCSI block device allocated to a bare-metal host.
+        What is causing this issue?
+    Options:
+        - Jumbo frames has not been configured on the switch
+        - External client access has not been enabled for the host
+        - Network segmentation has not been enabled
+        - External host IP address is not in the Filesystem Whitelist
+    Correct:
+        - External host IP address is not in the Filesystem Whitelist
+
+- Question:
+    ID: 79
+    Type: Multiple
+    QuestionText: |
+        An administrator has received the following critical alert:
+        
+        Node 192.168.148.172 is marked to be detached from metadata
+
+        The administrator has opened a case with Nutanix and the support engineer has requested more information about the error. Which two actions should the administrator take in the Health Check dashboard to collect the requested information? (Choose two.)
+
+    Options:
+        - Create an Entity chart
+        - Open a remote support tunnel.
+        - Run the Log Collector
+        - Run the Nutanix Cluster Check
+    Correct:
+        - Run the Log Collector
+        - Run the Nutanix Cluster Check
+
+- Question:
+    ID: 80
+    Type: Single
+    QuestionText: |
+        An administrator needs to provide data integrity at the application level for a VM that is replicated to a secondary site. 
+        Which requirement will satisfy this task?
+    Options:
+        - 1 VM per Consistency Group
+        - 1 VM per Availability Zone
+        - 1 VM per Protection Domain
+        - 1 VM per Schedule
+    Correct:
+        - 1 VM per Schedule
+
+- Question:
+    ID: 83
+    Type: Single
+    QuestionText: |
+        A customer requires the ability to block all network traffic between their VDI VMs and their application VMs running on their Nutanix AHV clusters.
+        What Nutanix product would meet this requirement?
+    Options:
+        - Beam
+        - Calm
+        - Era
+        - Flow
+    Correct:
+        - Flow
+
+- Question:
+    ID: 84
+    Type: Single
+    QuestionText: |
+        Which policy specifies that a selected VM will only run on a specific group of nodes?
+    Options:
+        - Isolation
+        - Anti-affinity
+        - Affinity
+        - Fixed
+    Correct:
+        - Affinity
+
+- Question:
+    ID: 86
+    Type: Single
+    QuestionText: |
+        Which Nutanix concept is responsible for accommodating and remediating node failure scenarios?
+    Options:
+        - Life cycle management
+        - Auto resolve mode
+        - Data locality
+        - Self healing
+    Correct:
+        - Data locality
+
+- Question:
+    ID: 87
+    Type: Multiple
+    QuestionText: |
+        An application owner had reported that an AHV-based critical application VM is performing very slowly.
+        After initial diagnostics, it has been observed that the CPU utilization is significantly higher than normal.
+        What two actions should the administrator take on this VM without shutting it down? (Choose two.)
+    Options:
+        - Increase number of vCPU in Prism Element
+        - Configure additional cores in acli
+        - Ensure CPU hot-add is supported by the Guest OS
+        - Use PrismElement to increase the number of cores
+    Correct:
+        - Increase number of vCPU in Prism Element
+        - Ensure CPU hot-add is supported by the Guest OS
+
+- Question:
+    ID: 88
+    Type: Single
+    QuestionText: |
+        An administrator is upgrading a current three-node Nutanix cluster with new HCI nodes. Currently, the environment is based on a Single two-unit chassis hosted in one cabinet.
+        By simply changing the system form factor, what new level of resiliency may this customer achieve?
+    Options:
+        - Rack awareness
+        - Block awareness
+        - Metro Availability
+        - Better replication factor
+    Correct:
+        - Block awareness
+
+- Question:
+    ID: 90
+    Type: Single
+    QuestionText: |
+        When a VM generates I/O, which Nutanix component is serving the storage request?
+    Options:
+        - Hypervisor
+        - Prism
+        - HDD disks
+        - CVM
+    Correct:
+        - CVM
+
+- Question:
+    ID: 91
+    Type: Multiple
+    QuestionText: |
+        The two main components of hyperconverged infrastructure are?
+    Options:
+        - The Management plane
+        - The transfer plane
+        - The network plane
+        - The distibuted plane
+    Correct:
+        - The Management plane
+        - The distibuted plane
+
+- Question:
+    ID: 92
+    Type: Single
+    QuestionText: |
+        Which definition best matches the term AOS:
+    Options:
+        - A Nutanix VM that manages storage and other cluster functions on a node.
+        - The Acropolis operating system or base software.
+        - The Nutanix converged software fabric for virtualization and storage management.
+        - The duration of time and a service level within which a business process must be restored after a disaster.
+    Correct:
+        - The Acropolis operating system or base software.
+
+- Question:
+    ID: 93
+    Type: Single
+    QuestionText: |
+        The abstraction layer between the VM and hardware, responsible for providing VMs with access to physical resources during their runtime is the__________?
+    Options:
+        - Emulator
+        - Cluster
+        - Hypervisor
+        - Load Balancer
+    Correct:
+        - Hypervisor
+
+- Question:
+    ID: 94
+    Type: Single
+    QuestionText: |
+        Which definition best matches the term Acropolis:
+    Options:
+        - The Acropolis operating system or base software.
+        - A Nutanix VM that manages storage and other cluster functions on a node.
+        - The Nutanix converged software fabric for virtualization and storage management.
+        - Load Balancer
+    Correct:
+        - The Acropolis operating system or base software.
+
+- Question:
+    ID: 95
+    Type: Multiple
+    QuestionText: |
+        What is available in a Nutanix Cluster by default after Foundation? Choose three answers.
+    Options:
+        - Controller VMs
+        - Prism Central
+        - Acropolis Starter license
+        - Prism Element / Prism Web Console
+    Correct:
+        - Controller VMs
+        - Acropolis Starter license
+        - Prism Element / Prism Web Console
+
+- Question:
+    ID: 95
+    Type: Single
+    QuestionText: |
+        What is the purpose of a CVM?
+    Options:
+        - Serves all two-factor authentication requests
+        - Serves all I/O operations for the hypervisor
+        - Provide centralized management across a cluster
+        - Provide deployment of a cluster
+    Correct:
+        - Serves all I/O operations for the hypervisor
+
+- Question:
+    ID: 96
+    Type: Multiple
+    QuestionText: |
+        What does Nutanix Hyperconverged Infrastructure provide on a single host? Choose three answers.
+    Options:
+        - CPU
+        - Storage
+        - Guest Networking
+        - Memory
+    Correct:
+        - CPU
+        - Storage
+        - Memory
+
+- Question:
+    ID: 97
+    Type: Single
+    QuestionText: |
+        __________is the management plane that provides a unified management interface that generates actionable insights for optimizing virtualization and provides infrastructure management and everyday operations?
+    Options:
+        - Calm
+        - Prism
+        - AHV
+        - Acropolis
+    Correct:
+        - Prism
+
+- Question:
+    ID: 98
+    Type: Multiple
+    QuestionText: |
+        Nutanix uses Foundation software after the rack-and-stack of new servers. What is the purpose of Nutanix Foundation? Choose two answers.
+    Options:
+        - Install AOS
+        - Prepare external switches to inter-connect the individual nodes
+        - Create a cluster from individual nodes
+        - Create Protection Domains
+    Correct:
+        - Install AOS
+        - Create a cluster from individual nodes
+
+- Question:
+    ID: 99
+    Type: Multiple
+    QuestionText: |
+        The features of the Nutanix Cloud Platform are…? (Select any two)
+    Options:
+        - Partial Application Orchestration
+        - Built-in Data Protection
+        - Restricted Cloud Integration
+        - Exceptional Availability
+    Correct:
+        - Built-in Data Protection
+        - Exceptional Availability
+
+- Question:
+    ID: 100
+    Type: Single
+    QuestionText: |
+        When should you deploy Prism Central?
+    Options:
+        - Never since PC is automatically created when running Foundation
+        - After being recommended by Xpert Services
+        - Always, to enable additional features
+        - Only if two or more clusters are deployed
+    Correct:
+        - Always, to enable additional features
+
+- Question:
+    ID: 101
+    Type: Single
+    QuestionText: |
+        ____ is the graphical user interface to manage and monitor most activities within a single Nutanix cluster?
+    Options:
+        - Prism Element or Prism Web Console
+        - Prism Central
+        - Life cycle manager
+    Correct:
+        - Prism Element or Prism Web Console
+
+- Question:
+    ID: 102
+    Type: Single
+    QuestionText: |
+        What menu displays a table of all of the hosts managed by a Prism Central instance?
+    Options:
+        - VMs menu
+        - Cluster menu
+        - Hosts menu
+        - Analysis menu
+    Correct:
+        - Hosts menu
+
+- Question:
+    ID: 103
+    Type: Multiple
+    QuestionText: |
+        How is Prism Central installed? Choose two answers.
+    Options:
+        - As four-VMs
+        - As three-VMs
+        - As a dual-VM
+        - As a single VM
+    Correct:
+        - As three-VMs
+        - As a single VM
+
+- Question:
+    ID: 104
+    Type: Multiple
+    QuestionText: |
+        Which interfaces can you use to manage your Nutanix Cluster? Choose three answers.
+    Options:
+        - Command Line Interface (ncli/acli)
+        - Prism web console
+        - REST API
+        - Java
+        - IPMI
+    Correct:
+        - Command Line Interface (ncli/acli)
+        - Prism web console
+        - REST API
+
+- Question:
+    ID: 105
+    Type: Multiple
+    QuestionText: |
+        Which system components can be upgraded with LCM? Choose two answers.
+    Options:
+        - BIOS, HBA, and BMC
+        - AOS, NCC, and Objects
+        - Prism Central, Karbon (Kubernetes), and Flow
+        - Active Directory, MSP, and AOS
+    Correct:
+        - BIOS, HBA, and BMC
+        - AOS, NCC, and Objects
+
+- Question:
+    ID: 106
+    Type: Single
+    QuestionText: |
+        Nutanix uses the terms Node, Block, and Cluster. What describes a Nutanix Cluster?
+    Options:
+        - A virtual/logical entity
+        - One or more server racks
+        - A set of disks connected by a switch
+        - A physical host
+    Correct:
+        - A virtual/logical entity
+
+- Question:
+    ID: 107
+    Type: Multiple
+    QuestionText: |
+        What are the main functions of the Life Cycle Manager (LCM)? Select two.
+    Options:
+        - Perform disk balancing
+        - Taking inventory of the cluster
+        - Perform updates on the cluster
+        - Provide data backup to the cluster
+    Correct:
+        - Taking inventory of the cluster
+        - Perform updates on the cluster
+
+- Question:
+    ID: 107
+    Type: Multiple
+    QuestionText: |
+        Which statements are correct? Choose two answers
+    Options:
+        - Replication Factor refers to the number of data copies in a cluster
+        - Redundancy Factor determine how many component failures can be sustained simultaneously without interrupting cluster operations
+        - Replication Factor determine how many component failures can be sustained simultaneously without interrupting cluster operations
+        - Redundancy Factor refers to the number of data copies in a cluster
+    Correct:
+        - Replication Factor refers to the number of data copies in a cluster
+        - Redundancy Factor determine how many component failures can be sustained simultaneously without interrupting cluster operations
+
+- Question:
+    ID: 108
+    Type: Multiple
+    QuestionText: |
+        How does deduplication help in optimizing capacity? Choose two answers.
+    Options:
+        - Retains redundant data in the capacity tier, increasing effective storage capacity of a cluster.
+        - Replaces redundant data blocks with pointers to a single copy of the data.
+        - Ensures that one unique instance of data is retained.
+    Correct:
+        - Replaces redundant data blocks with pointers to a single copy of the data.
+        - Ensures that one unique instance of data is retained.
+
+- Question:
+    ID: 109
+    Type: Multiple
+    QuestionText: |
+        What is a Nutanix storage container? Choose two answers.
+    Options:
+        - An entity with a size that is based on the storage pool size and RF
+        - All physical disks pooled together into a single entity
+        - A physical entity with RF attributes
+        - A logical entity with a set of attributes
+    Correct:
+        - An entity with a size that is based on the storage pool size and RF
+        - A logical entity with a set of attributes
+
+- Question:
+    ID: 110
+    Type: Single
+    QuestionText: |
+        Which definition best describes Storage Table View:
+    Options:
+        - Displays information about storage pools and storage containers Distribution of storage across multiple clusters
+        - Displays information about volume groups, storage pools, and storage containers in a tabular form.
+        - Displays storage-specific performance and usage statistics Logical pooling of the cluster’s storage
+    Correct:
+        - Displays information about volume groups, storage pools, and storage containers in a tabular form.
+
+- Question:
+    ID: 110
+    Type: Single
+    QuestionText: |
+        Based on the Understanding AOS Distributed Storage section in the course guide, what is AOS Distributed Storage?
+    Options:
+        - Distribution of storage across multiple clusters
+        - Physical pooling of the cluster’s disks
+        - Pooling of the CVM’s resources within a cluster
+        - Logical pooling of the cluster’s storage
+    Correct:
+        - Logical pooling of the cluster’s storage
+
+- Question:
+    ID: 111
+    Type: Single
+    QuestionText: |
+        How many storage pools are created and available out-of-the-box?
+    Options:
+        - "3"
+        - "1"
+        - "2"
+        - "5"
+    Correct:
+        - "1"
+
+- Question:
+    ID: 112
+    Type: Single
+    QuestionText: |
+        Your current storage pool is 10TiB. With 5 storage containers configured and a Replication Factor of 2, what is the size of each storage container?
+    Options:
+        - 2 TiB
+        - 1 TiB
+        - 5 TiB
+        - 10 TiB
+    Correct:
+        - 5 TiB
+
+- Question:
+    ID: 113
+    Type: Single
+    QuestionText: |
+        What is a reason the total VM count may be higher than the visible virtual machines visible on the VM dashboard?
+    Options:
+        - The guest VMs are on a different host
+        - CVMs are not visible by default
+        - The Create VM task has not completed yet
+        - Prism Element needs to be refreshed
+    Correct:
+        - CVMs are not visible by default
+
+- Question:
+    ID: 114
+    Type: Multiple
+    QuestionText: |
+        What is a Virtual Machine (VM)? Choose three answers.
+    Options:
+        - An entity on which you install an OS and one or more applications
+        - An emulation of a physical server
+        - An entity that consists of several types of files stored on a supported storage device
+        - A software definition of a computer
+    Correct:
+        - An entity on which you install an OS and one or more applications
+        - An entity that consists of several types of files stored on a supported storage device
+        - A software definition of a computer
+
+- Question:
+    ID: 115
+    Type: Single
+    QuestionText: |
+       What functionality does the Nutanix VirtIO provide?
+    Options:
+        - VM device drivers
+        - A complimentary virtual CD-ROM
+        - Set of Linux VM iSCSI rpms
+        - Keyboard and mouse functionality for the VM console
+    Correct:
+        - VM device drivers
+
+- Question:
+    ID: 116
+    Type: Multiple
+    QuestionText: |
+       What are the requirements for NGT? (Select two)
+    Options:
+        - Guest VMs are not required to be connected to a network that can be accessed by using the virtual IP address of the cluster
+        - VMs must have at least one empty IDE CD-ROM or SATA slot to attach the ISO.
+        - The hypervisor should be ESXi 5 or earlier, or AHV 20150205 or earlier
+        - The hypervisor should be ESXi 5.1 or later, or AHV 20160215 or later.
+    Correct:
+        - VMs must have at least one empty IDE CD-ROM or SATA slot to attach the ISO.
+        - The hypervisor should be ESXi 5.1 or later, or AHV 20160215 or later.
+
+- Question:
+    ID: 117
+    Type: Multiple
+    QuestionText: |
+       What are the different views available on the VM dashboard? (Select two)
+    Options:
+        - Table View
+        - Overview View
+        - Alerts View
+        - Events View
+    Correct:
+        - Table View
+        - Overview View
+
+- Question:
+    ID: 118
+    Type: Single
+    QuestionText: |
+        Which statement regarding High Availability (HA) is correct?
+    Options:
+        - HA is, by default, set to Best Effort
+        - HA is automatically set to the correct mode based on resource availability
+        - HA is, by default, set to Fail-over
+        - HA is not set by default
+    Correct:
+        - HA is, by default, set to Best Effort
+
+- Question:
+    ID: 119
+    Type: Multiple
+    QuestionText: |
+        In what format can a Metrics chart be exported? Choose two answers.
+    Options:
+        - .png
+        - .csv
+        - .txt
+        - .json
+    Correct:
+        - .csv
+        - .json
+
+- Question:
+    ID: 120
+    Type: Single
+    QuestionText: |
+        What is another name for the set of Nutanix Health Checks?
+    Options:
+        - Nutanix Analysis Check
+        - Nutanix Node Checks
+        - Nutanix Cluster Checks
+        - Nutanix Pulse Checks
+    Correct:
+        - Nutanix Cluster Checks
+
+- Question:
+    ID: 121
+    Type: Multiple
+    QuestionText: |
+        When creating an Entity chart (Analysis dashboard), which of the following are considered “entities”? Choose three answers.
+    Options:
+        - Host
+        - IOPS
+        - VM
+        - Protection Domain
+    Correct:
+        - Host
+        - VM
+        - Protection Domain
+
+- Question:
+    ID: 122
+    Type: Single
+    QuestionText: |
+        When creating an Entity chart (Analysis dashboard), which of the following are considered “entities”? Choose three answers.
+    Options:
+        - Prism Element Analysis dashboard, followed by the Checks menu, then select Run NCC Checks
+        - Prism Element Home dashboard, followed by the Health menu, then select Run NCC Checks
+        - Prism Element Alerts dashboard, followed by the Health menu, then select Run NCC Checks
+        - Prism Element Health dashboard, followed by the Actions menu, then select Run NCC Checks
+    Correct:
+        - Prism Element Health dashboard, followed by the Actions menu, then select Run NCC Checks
+
+- Question:
+    ID: 123
+    Type: Multiple
+    QuestionText: |
+        What is the difference between Pulse and Alerts? Choose two answers.
+    Options:
+        - Alerts is reactive, sending info regarding existing issues
+        - Alerts Sends info to you and/or Nutanix on impending issues
+        - Pulse is reactive, sending info on existing issues
+        - Pulse is pro-active, sending info regarding impending issues
+    Correct:
+        - Alerts is reactive, sending info regarding existing issues
+        - Pulse is pro-active, sending info regarding impending issues
+
+- Question:
+    ID: 123
+    Type: Single
+    QuestionText: |
+        What data is sent to Nutanix by Pulse?
+    Options:
+        - Diagnostic system data
+        - Emails that directly open a case for any unresponsive node
+        - Alerts to the Nutanix Support queue
+        - Potential security breach notifications (e.g. password changes)
+    Correct:
+        - Diagnostic system data
+
+- Question:
+    ID: 124
+    Type: Single
+    QuestionText: |
+        When you select the Acknowledged box on the Alerts dashboard, what is the result?
+    Options:
+        - A date and time stamp is added to the alert
+        - Only that particular alert is showing as resolved
+        - All alerts are confirmed and change from red to green color
+        - That alert is removed from the critical list
+    Correct:
+        - A date and time stamp is added to the alert
+
+- Question:
+    ID: 125
+    Type: Single
+    QuestionText: |
+        Which statement is correct?
+    Options:
+        - Although you cannot run live VMs on Xi Leap, you can restore async from the Cloud
+        - Xi Leap is a natively integrated Cloud DR solution
+        - Xi Leap simplifies the provisioning, operations and lifecycle management of Kubernetes with a native Kubernetes experience
+        - Leap is a cloud-based Desktop-as-a-Service (DaaS), enabled by Software-as-a-Service (SaaS)
+    Correct:
+        - Xi Leap is a natively integrated Cloud DR solution
+
+- Question:
+    ID: 125
+    Type: Multiple
+    QuestionText: |
+        What is the difference between RTO and RPO (Choose two answers)?
+    Options:
+        - RTO how much data can the business afford to lose in case of a calamity?
+        - RPO how much time can the business afford to lose in case of a calamity?
+        - RPO how much data can the business afford to lose in case of a calamity?
+        - RTO how much time can the business afford to lose in case of a calamity?
+    Correct:
+        - RPO how much data can the business afford to lose in case of a calamity?
+        - RTO how much time can the business afford to lose in case of a calamity?
+
+- Question:
+    id: 126
+    Type: Sigle
+    QuestionText: |
+        Considering enough storage space, how much time files persist in the Nutanix Recycle Bin:
+    Options:
+        - 24H
+        - 8H
+        - 1 Week
+        - 1 Month
+    Correct:
+        - 24H
+
+- Question:
+    id: 126
+    Type: Sigle
+    QuestionText: |
+        How is Nutnaxi Recycle Bin activated?
+    Options:
+        - In Nutanix Prism go to Dashboard > Actions > Enable Recycle Bin
+        - In Nutanix Element go to Dashboard > Actions > Enable Recycle Bin
+        - Nutnaxi Recycle Bin is enabled by default
+        - Usin some strange command, this is a wrong option, I don't remember all options of this question.
+    Correct:
+        - Nutnaxi Recycle Bin is enabled by default
+
+...
